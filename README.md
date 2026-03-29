@@ -1,18 +1,32 @@
 ## 📊 Marketing Discount Optimization using Reinforcement Learning
 
-**Description:**  
-Group academic project applying **reinforcement learning (Q-learning)**  
-to identify the most effective discount strategy for different customer income groups.
+### 📌 Description  
+This project applies **Q-learning (Reinforcement Learning)** to optimize marketing discount strategies based on customer income segmentation (Low, Medium, High).  
+An intelligent agent interacts with a simulated environment, learns from customer responses (purchase / no purchase), and improves its decisions over time.
 
-### 🛠 Tools
+### 🛠 Tools & Technologies  
 - Python  
 - Reinforcement Learning (Q-learning)  
-- Marketing & Data Analysis  
+- Data Analysis & Visualization  
+- Marketing Analytics  
 
-### 📂 Files
-- Python implementation  
+### ⚙️ Methodology  
+- Defined customer segments based on income levels  
+- Tested multiple discount strategies (0%, 10%, 20%, 30% holiday discount)  
+- Designed a reward system based on customer purchase behavior  
+- Trained a Q-learning agent to maximize long-term rewards  
+- Visualized results using Q-table, bar charts, and heatmaps  
+
+### 📂 Project Files  
+- Jupyter Notebook (.ipynb) – full implementation  
 - Project report (PDF)  
-- Project presentation (PDF)  
+- Presentation slides (PDF)  
 
-### 💡 Key Insight
-Different income groups respond differently to discount strategies.
+### 📈 Results  
+- Identified optimal discount strategy for each income group  
+- High-income customers responded more to large/seasonal discounts  
+- Low-income customers showed purchasing behavior even without discounts  
+- The model improved decision-making compared to traditional methods  
+
+### 💡 Key Insight  
+Reinforcement learning enables **data-driven and personalized marketing decisions**, improving sales performance while maintaining profitability.
